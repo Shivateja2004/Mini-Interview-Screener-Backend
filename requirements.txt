@@ -1,20 +1,6 @@
-fastapi
-uvicorn
-openai
-python-dotenv
-pydantic
-
-
-{
-  "answer": "I would build an event-driven scalable architecture."
-}
-
-{
-  "answers": [
-    "I would build microservices with autoscaling.",
-    "I would design modular services with load balancing.",
-    "I would optimize bottlenecks using caching."
-  ]
-}
-
-uvicorn app:app --reload
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==2.6.1
+python-dotenv==1.0.1
+mangum==0.17.0
+groq==0.5.0
